@@ -9,6 +9,9 @@ Attempt to create one source code that can generate react app for
 
 
 ## TODO 
+- [x] Adding web brwoser support
+- [x] Adding electron support
+- [x] Adding mobile capacitor support
 - [ ] Adding samsung tizen os integration
 - [ ] Adding lg webOs integration
 - [ ] Adding type script support
