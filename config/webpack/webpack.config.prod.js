@@ -1,5 +1,4 @@
 const path = require('path');
-const WriteFilePlugin = require('write-file-webpack-plugin');
 const baseConfig = require('./webpack.config.base');
 const webpackMerge = require('webpack-merge');
 
