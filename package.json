@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --hot --config ./config/webpack/webpack.config.dev.js",
     "build": "webpack --config ./config/webpack/webpack.config.prod.js",
-    "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron-forge start ./electron/main.js \"",
+    "start-electron": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron-forge start ./electron/main.js \"",
     "package": "electron-forge package ./electron/main.js",
     "make": "electron-forge make ./electron/main.js"
   },
