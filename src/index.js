@@ -12,6 +12,7 @@ const App = () => {
         width: "100%",
         height: "100%",
         display: "flex",
+        backgroundColor: "gray",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
