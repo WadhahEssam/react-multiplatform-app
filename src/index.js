@@ -6,9 +6,21 @@ import './index.css';
 
 const App = () => {
   return (
-    <div>
-      <div>Welcome to React multiplatform app</div>
+    <div
+      style={{
+        position: "absolute",
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <img src={Logo} />
+      <div style={{ fontFamily: "sans-serif" }}>
+        Welcome to React Multiplatform App
+      </div>
     </div>
   );
 }
