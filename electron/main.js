@@ -10,7 +10,8 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({width: 900, height: 680});
-  mainWindow.loadURL(isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../builds/electron-production/index.html')}`);
+  mainWindow.openDevTools();
+  mainWindow.loadURL(isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../builds/electronProduction/index.html')}`);
   mainWindow.on('closed', () => mainWindow = null);
 }
 
