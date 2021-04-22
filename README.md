@@ -4,6 +4,8 @@ Attempt to create one source code that can generate react app for
 - iOS & Android (Capacitor)
 - Samsung smart tv Tizen OS
 - LG smart tv webOs
+- Android TV
+- Amazon Fire TV
 
 ![gif example](https://user-images.githubusercontent.com/24798045/115632381-42c5de00-a310-11eb-8ca6-16a35c70b136.gif)
 
