@@ -10,7 +10,9 @@
     "start-electron": "electron-forge start ./electron/main.js ",
     "package": "electron-forge package ./electron/main.js",
     "start-android": "node config/updateCapacitorIPAddress.js && npx cap copy android && npx cap open android",
-    "start-ios": "node config/updateCapacitorIPAddress.js && npx cap copy ios && npx cap open ios"
+    "start-ios": "node config/updateCapacitorIPAddress.js && npx cap copy ios && npx cap open ios",
+    "start-tizen": "webpack-dev-server --open --hot --config ./config/webpack/webpack.config.tizenDev.js",
+    "build-tizen": "webpack --config ./config/webpack/webpack.config.tizenProd.js"
   },
   "keywords": [],
   "author": "",
