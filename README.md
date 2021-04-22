@@ -15,6 +15,5 @@ Attempt to create one source code that can generate react app for
 - [x] Adding samsung tizen os integration
 - [ ] Adding lg webOs integration
 - [ ] Adding type script support
-- [ ] Adding font files bundling support
 - [ ] Adding eslint support
 - [ ] Adding better electron production bundling (currently it bundles all project files including /node_modules)
