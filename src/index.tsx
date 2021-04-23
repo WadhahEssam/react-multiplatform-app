@@ -1,12 +1,13 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 
 import Logo from './assets/logo.png';
+
 import './index.css';
 
-const App = () => {
-  const [clickedButton, setClickedButton] = useState(null);
-  const [counter, setCounter] = useState(0);
+const App: React.FC = () => {
+  const [clickedButton, setClickedButton] = React.useState(``);
+  const [counter, setCounter] = React.useState(0);
 
   document.addEventListener('keydown', function(e) {
     switch(e.keyCode){
@@ -26,7 +27,7 @@ const App = () => {
       tizen.application.getCurrentApplication().exit();
       break;
     default:
-      setClickedButton(e.keyCode);
+      setClickedButton(`${e.keyCode}`);
       break;
     }
   });
@@ -44,7 +45,7 @@ const App = () => {
       }}
     >
       <img src={Logo} />
-      <div>Welcome to React Multiplatform App</div>
+      <div>Welcome to React Multiplatform App (WebOS)</div>
       <p style={{ fontSize: 30, marginTop: 50 }}>{counter}</p>
       <div style={{ display: "flex", flexDirection: "row" }}>
         <button
@@ -84,7 +85,6 @@ const App = () => {
           -
         </button>
       </div>
-
       {clickedButton && <p>{clickedButton}</p>}
     </div>
   );

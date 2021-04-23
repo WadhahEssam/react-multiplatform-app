@@ -1,0 +1,17 @@
+{
+  "appId": "com.example.reactmultiplatformapp",
+  "appName": "react-multiplatform-app",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "builds/production",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "server": {
+    "url": "http://192.168.100.7:3000",
+    "cleartext": true
+  }
+}
