@@ -12,7 +12,8 @@
     "start-android": "node config/updateCapacitorIPAddress.js && npx cap copy android && npx cap open android",
     "start-ios": "node config/updateCapacitorIPAddress.js && npx cap copy ios && npx cap open ios",
     "start-tizen": "webpack-dev-server --open --hot --config ./config/webpack/webpack.config.tizenDev.js",
-    "build-tizen": "webpack --config ./config/webpack/webpack.config.tizenProd.js"
+    "build-tizen": "webpack --config ./config/webpack/webpack.config.tizenProd.js",
+    "build-webOs": "webpack --config ./config/webpack/webpack.config.webOsProd.js"
   },
   "keywords": [],
   "author": "",
