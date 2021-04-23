@@ -15,7 +15,7 @@ Attempt to create one source code that can generate react app for
 - [x] Adding electron support
 - [x] Adding mobile capacitor support
 - [x] Adding samsung tizen os integration
-- [ ] Adding lg webOs integration
+- [x] Adding lg webOs integration
 - [ ] Adding type script support
 - [ ] Adding eslint support
 - [ ] Add a way to detect device and platform. `something like Platform.select` in react-native
