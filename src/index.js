@@ -6,6 +6,7 @@ import './index.css';
 
 const App = () => {
   const [clickedButton, setClickedButton] = useState(null);
+  const [counter, setCounter] = useState(0);
 
   document.addEventListener('keydown', function(e) {
     switch(e.keyCode){
@@ -43,9 +44,47 @@ const App = () => {
       }}
     >
       <img src={Logo} />
-      <div style={{ fontFamily: "sans-serif" }}>
-        Welcome to React Multiplatform App
+      <div>Welcome to React Multiplatform App</div>
+      <p style={{ fontSize: 30, marginTop: 50 }}>{counter}</p>
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <button
+          onClick={() => {
+            setCounter(counter + 1);
+          }}
+          style={{
+            height: 70,
+            width: 70,
+            borderRadius: "50%",
+            backgroundColor: "#61DAFB",
+            borderColor: "gray",
+            borderWidth: 1,
+            margin: "10px 10px",
+            fontSize: 30,
+            color: "white",
+          }}
+        >
+          +
+        </button>
+        <button
+          onClick={() => {
+            setCounter(counter !== 0 ? counter - 1 : counter);
+          }}
+          style={{
+            height: 70,
+            width: 70,
+            borderRadius: "50%",
+            backgroundColor: "#61DAFB",
+            borderColor: "gray",
+            borderWidth: 1,
+            margin: "10px 10px",
+            fontSize: 30,
+            color: "white",
+          }}
+        >
+          -
+        </button>
       </div>
+
       {clickedButton && <p>{clickedButton}</p>}
     </div>
   );
