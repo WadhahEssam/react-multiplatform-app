@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:prettier/recommended",
+    "airbnb-typescript-prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "react/prop-types": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "react-native/no-inline-styles": "off",
+    "jsx-a11y/alt-text": "off"
+  }
+}

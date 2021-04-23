@@ -1,0 +1,10 @@
+config
+builds
+.gradle
+android
+electron
+ios
+node_modules
+out
+tizen
+webOs
