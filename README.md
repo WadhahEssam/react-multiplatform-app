@@ -19,4 +19,5 @@ Attempt to create one source code that can generate react app for
 - [x] Adding typeScript support
 - [ ] Adding eslint support
 - [ ] Add a way to detect device and platform. `something like Platform.select` in react-native
-- [ ] Adding better electron production bundling (currently it bundles all project files including /node_modules)
+- [ ] Add Android TV support.
+- [ ] Add Amazon Fire support.
