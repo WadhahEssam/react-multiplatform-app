@@ -9,6 +9,7 @@
     "react-hooks/exhaustive-deps": "off",
     "react-hooks/rules-of-hooks": "off",
     "react-native/no-inline-styles": "off",
-    "jsx-a11y/alt-text": "off"
+    "jsx-a11y/alt-text": "off",
+    "react/jsx-filename-extension": "off"
   }
 }
