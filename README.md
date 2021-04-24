@@ -17,7 +17,7 @@ Attempt to create one source code that can generate react app for
 - [x] Adding samsung tizen os integration
 - [x] Adding lg webOs integration
 - [x] Adding typeScript support
-- [ ] Adding eslint support
+- [x] Adding eslint support
 - [ ] Add a way to detect device and platform. something like `Platform.select` in react-native
 - [ ] Add Android TV support.
 - [ ] Add Amazon Fire support.
