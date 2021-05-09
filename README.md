@@ -23,3 +23,4 @@ Attempt to create one source code that can generate react app for
 - [ ] Add Amazon Fire support.
 - [ ] Add Amazon Fire support.
 - [ ] Add Apple TV support.
+- [ ] A unified way to store data in all platforms.
