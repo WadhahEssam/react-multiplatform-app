@@ -21,3 +21,5 @@ Attempt to create one source code that can generate react app for
 - [ ] Add a way to detect device and platform. something like `Platform.select` in react-native
 - [ ] Add Android TV support.
 - [ ] Add Amazon Fire support.
+- [ ] Add Amazon Fire support.
+- [ ] Add Apple TV support.
